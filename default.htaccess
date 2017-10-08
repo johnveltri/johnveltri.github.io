@@ -1,10 +1,3 @@
-# BEGIN 301 Redirect
-RewriteEngine On
-
-RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
-# END 301 Redirect
-
 # BEGIN Custom 404
 ErrorDocument 404 /404.html
 # END Custom 404
