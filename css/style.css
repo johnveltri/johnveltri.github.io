@@ -394,10 +394,10 @@ MEDIA QUERIES
 /*API positioning*/
 #api-container {
 	max-width: 100%;
+	height: auto;
 }
 #APIs {
 	height: auto;
-	max-height: 2000px;
 	background-color: #ecf0f1;
 }
 #home .main #APIs .container {
